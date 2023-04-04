@@ -39,36 +39,37 @@
   </div>
 </div>
 </div>
+<br>
 <nav class="navbar navbar-expand-lg bg-light bg-body-tertiary">
   <div class="container-fluid flex-grow-1">
     <a class="navbar-brand" href="#">Your Details</a>
   </div>
-</nav>
-<nav class="navbar navbar-expand-lg bg-warning bg-body-tertiary">
-  <div class="container-fluid flex-grow-1">
-    <a class="navbar-brand" href="#">Name</a>
-  </div>
-</nav>
-<nav class="navbar navbar-expand-lg bg-success bg-body-tertiary">
-  <div class="container-fluid flex-grow-1">
-    <a class="navbar-brand" href="#">Email</a>
-  </div>
-</nav>
-<nav class="navbar navbar-expand-lg bg-primary bg-body-tertiary">
-  <div class="container-fluid flex-grow-1">
-    <a class="navbar-brand" href="#">Phone Number</a>
-  </div>
-</nav>
-<nav class="navbar navbar-expand-lg bg-danger bg-body-tertiary">
-  <div class="container-fluid flex-grow-1">
-    <a class="navbar-brand" href="#">Address</a>
-  </div>
-</nav>
-<nav class="navbar navbar-expand-lg bg-secondary bg-body-tertiary">
-  <div class="container-fluid flex-grow-1">
-    <a class="navbar-brand" href="#">Designation</a>
-  </div>
-</nav>
+</nav> 
+<br>
+<table class="table table-success">
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>S. M. Samiul Alam</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>samiul.kolpolok@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Phone number</td>
+      <td>01580611615</td>
+    </tr>
+    <tr>
+      <td>Designation</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>Web Technology</td>
+    </tr>
+  </tbody>
+</table>
 </template>
 
 <style>

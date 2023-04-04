@@ -23,6 +23,6 @@
 
 <style>
 .navsidebar{
-  height:100%
+  height:87vh
 }
 </style>

@@ -1,5 +1,5 @@
 <script>
-
+import axios from 'axios';
 export default {
   props: {
     msg: String, 
@@ -17,11 +17,17 @@ export default {
     }
   },
     created() {
-
     },
   methods:{
     onSubmit() {
-      console.log(this.user)
+      console.log(this.user);
+      axios.post('http://127.0.0.1/api/create_user.php', this.user)
+        .then(response => {
+            console.log(response);
+        })
+        .catch(error => {
+            console.log(error);
+        });
   }
 }}
 </script>

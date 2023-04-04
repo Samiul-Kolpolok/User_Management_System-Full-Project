@@ -7,19 +7,19 @@ import KolpolokFooter from './components/KolpolokFooter.vue'
 
 <template>
       <div>
-      <Navbar/>
+        <Navbar/>
       </div>
-      <div class="d-sm-flex" style="height: 87vh;">
+      <div class="d-sm-flex">
         <div>
           <Sidebar/>
         </div>
-        <div class="p-2 flex-grow-1">
-          <RouterView />
-        </div>
+      <div class="p-2 flex-grow-1">
+      <RouterView />
       </div>
-    <div>
-      <KolpolokFooter/>
-    </div>
+      </div>
+      <div>
+        <KolpolokFooter/>
+      </div>
 </template>
 
 <style scoped>
